@@ -1,0 +1,19 @@
+{
+  "name": "team-solana-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "bot": "node server/discord-bot.js"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "dependencies": {
+    "discord.js": "latest",
+    "dotenv": "latest"
+  }
+}
